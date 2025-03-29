@@ -37,7 +37,7 @@ https://pypi.org/project/IPythonClipboard/#usage
 """
 
 import sys
-from subprocess import Popen, PIPE
+from subprocess import PIPE, Popen
 
 from IPython.core.magic import register_line_cell_magic
 
